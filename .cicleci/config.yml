@@ -19,6 +19,10 @@ jobs:
     steps:
       - checkout
 
+      # Update node and npm
+      - run: npm install -g npm
+      - run: npm install -g node
+
       # Download and cache dependencies
       - restore_cache:
           keys:
@@ -53,7 +57,9 @@ jobs:
     steps:
       - checkout
 
-      - run: npm install -g npm@latest
+      # Update node and npm
+      - run: npm install -g npm
+      - run: npm install -g node
 
       # Download and cache dependencies
       - restore_cache:
