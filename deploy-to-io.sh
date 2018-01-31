@@ -3,7 +3,7 @@ set -x -e
 
 cd $HOME
 
-# https://github.com/antbelliard/RPG-sample-io.git
+# https://github.com/antbelliard/RPG-sample.git
 git clone git@github.com:$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git -b gh-pages public
 
 cp -r RPG-sample/dist/* public/
