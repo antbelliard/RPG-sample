@@ -1,3 +1,19 @@
 machine:
+  environment:
+    CIRCLE_PROJECT_IO_REPONAME: RPG-sample-io
   node:
     version: 6.9.3
+
+test:
+  override:
+    - npm test:
+        environment:
+          JUNIT_REPORT_PATH: $CIRCLE_TEST_REPORTS/junit/
+          JUNIT_REPORT_NAME: test-results.xml
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - npm build
+      - ./deploy-to-io.sh
