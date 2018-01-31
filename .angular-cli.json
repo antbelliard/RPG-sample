@@ -21,7 +21,17 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/phaser-ce/build/phaser.min.js",
+        "../node_modules/phaser-ce/build/custom/pixi.min.js",
+        "../node_modules/phaser-ce/build/custom/creature.min.js",
+        "../node_modules/phaser-ce/build/custom/p2.min.js",
+        "../node_modules/phaser-ce/build/custom/phaser-arcade-physics.min.js",
+        "../node_modules/phaser-ce/build/custom/phaser-creature.min.js",
+        "../node_modules/phaser-ce/build/custom/phaser-minimum.min.js",
+        "../node_modules/phaser-ce/build/custom/phaser-no-physics.min.js",
+        "../node_modules/phaser-ce/build/custom/phaser-split.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
