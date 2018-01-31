@@ -3,6 +3,10 @@ machine:
     CIRCLE_PROJECT_IO_REPONAME: RPG-sample-io
   node:
     version: 6.9.3
+general:
+  branches:
+    ignore:
+      - gh-pages # list of branches to ignore
 
 test:
   override:
