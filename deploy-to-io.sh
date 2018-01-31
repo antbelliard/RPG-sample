@@ -13,5 +13,5 @@ cd public
 git config --global user.email $CIRCLE_PROJECT_EMAIL
 git config --global user.name $CIRCLE_PROJECT_USERNAME
 git add .
-git commit -m "publi:ship: $CIRCLE_BUILD_NUM"
+git commit -m "publi:ship: $CIRCLE_BUILD_NUM [ci skip]"
 git push origin gh-pages
