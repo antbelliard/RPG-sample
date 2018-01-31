@@ -19,5 +19,7 @@ deployment:
   production:
     branch: master
     commands:
-      - node_modules/@angular/cli/bin/ng build
+      - node_modules/@angular/cli/bin/ng build --prod --output-path dist --base-href $CIRCLE_PROJECT_REPONAME
+      - cp build/index.html build/404.html
+      - cp -r build $CIRCLE_ARTIFACTS
       - ./deploy-to-io.sh
