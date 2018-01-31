@@ -8,7 +8,7 @@ import {Game, AUTO, Physics, Group, Sprite, CursorKeys, Text} from 'phaser-ce';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'The Game!';
   game: Game;
   platforms: Group;
   player: Sprite;
