@@ -19,5 +19,5 @@ deployment:
   production:
     branch: master
     commands:
-      - npm build
+      - node_modules/@angular/cli/bin/ng build
       - ./deploy-to-io.sh

@@ -6,7 +6,7 @@ cd $HOME
 # https://github.com/antbelliard/RPG-sample-io.git
 git clone git@github.com:$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME.git -b gh-pages public
 
-cp RPG-sample/build/* public/
+cp RPG-sample/dist/* public/
 
 cd public
 
