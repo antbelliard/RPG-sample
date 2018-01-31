@@ -10,10 +10,8 @@ cp -r RPG-sample/dist/* public/
 
 cd public
 
-git remote add https https://github.com/some-user/some-repo.git
-
 git config --global user.email $CIRCLE_PROJECT_EMAIL
 git config --global user.name $CIRCLE_PROJECT_USERNAME
 git add .
 git commit -m "publi:ship: $CIRCLE_BUILD_NUM"
-git push https gh-pages
+git push origin gh-pages
