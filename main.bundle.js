@@ -20,7 +20,7 @@ webpackEmptyAsyncContext.id = "../../../../../src/$$_lazy_route_resource lazy re
 /***/ "../../../../../src/app/app.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -149,7 +149,7 @@ var appRoutes = [
 /***/ "../../../../../src/app/first-game/first-game.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -309,7 +309,7 @@ var FirstGameComponent = /** @class */ (function () {
 /***/ "../../../../../src/app/home/home.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -434,7 +434,7 @@ var EnemyTank = /** @class */ (function () {
 /***/ "../../../../../src/app/second-game/second-game.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
