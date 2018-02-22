@@ -1,5 +1,5 @@
 # RPGSample
-
+[![Build Status](https://travis-ci.org/antbelliard/RPG-sample.svg?branch=develop)](https://travis-ci.org/antbelliard/RPG-sample)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.4.
 
 ## Development server
